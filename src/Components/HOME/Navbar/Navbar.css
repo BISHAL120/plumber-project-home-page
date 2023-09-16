@@ -1,0 +1,1267 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+.section1{
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    padding-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+}
+
+.logo img {
+    width: 285px;
+    height: 85px;
+}
+
+.ancor {
+    display: flex;
+    gap: 20px;
+}
+
+.mobile-ancor {
+    display: none;
+}
+
+.ancor a {
+    text-decoration: none;
+    font-family: Outfit, sans-serif;
+    color: #2B3144;
+    font-size: 20px;
+    line-height: 1.667em;
+    font-weight: 500;
+}
+
+.ancor a:hover {
+    color: #569AFF;
+}
+
+.quote-btn button {
+    width: 145px;
+    height: 60px;
+    border: none;
+    background-color: #3083ff;
+    border-radius: 9px;
+    color: #fff;
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.quote-btn button:hover {
+    margin-bottom: 10px;
+    transition: ease 0.3s;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.details p {
+    text-align: start;
+}
+
+.details {
+    margin-top: 40px;
+    width: 50%;
+}
+
+.p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #3083ff;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+.p2 {
+    font-size: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 85px;
+    color: #182944;
+    margin-bottom: 25px;
+}
+
+.p3 {
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6e7891;
+}
+
+.buttons {
+    text-align: start;
+    display: flex;
+    gap: 20px;
+}
+
+
+.btn1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: #3083FF;
+    color: #ffffff;
+    width: 175px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.btn2 {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 190px;
+    height: 70px;
+    color: #3083FF;
+    border: 1px solid #3083FF;
+    border-radius: 10px;
+
+}
+
+.btn2:hover {
+    background-color: #3083FF;
+    color: #ffffff;
+}
+
+.img1 {
+    margin-top: 50px;
+    width: 50%;
+}
+
+
+.img1 img {
+    background-image: url(../../../Images/kichen.avif);
+    height: 680px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+}
+
+
+.address-div {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.add-email-call {
+    display: flex;
+    align-items: center;
+}
+
+.add-email-call p {
+    text-align: start;
+}
+
+.add-email-call img {
+    width: 100px;
+    height: 80px;
+}
+
+.add-email-call p {
+    margin: 0;
+}
+
+.tittle {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.info {
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #3083ff;
+}
+
+/* Exprencess css from here -------------------------------------- */
+.exprence {
+    display: flex;
+    background-color: #182944;
+}
+
+.exp-container {
+    padding: 130px 0;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.exp-img img {
+    width: 580px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.exp-detail {
+    text-align: start;
+}
+
+.exp-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #fdb52a;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.exp-p2 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+}
+
+.exp-p3 {
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 15px 0;
+}
+
+.exprences-number {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    /* line-height: 54px; */
+    color: #ffffff;
+}
+
+.number-icon {
+    color: #fdb52a;
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.exp-tittle {
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.exp-btn {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: #3083FF;
+    color: #ffffff;
+    width: 175px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+/* Service css from here ------------------------------------- */
+
+.section5{
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.service-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #3083ff;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+.service-p2 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.service-p3 {
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #6e7891;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+
+.slider {
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 400px !important;
+    cursor: pointer;
+}
+
+.card:hover {
+    margin-top: 4px;
+    transition: all ease 0.3s;
+}
+
+.card:hover img {
+    scale: 1.15;
+    transition: all ease 0.3s;
+}
+
+
+.card img {
+    width: 400px;
+    height: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 30px;
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #182944;
+}
+
+.card p {
+    text-align: inherit;
+    margin: 0 24px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.view-service {
+    color: #3083ff;
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.service-btn button {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    background-color: #3083FF;
+    color: #ffffff;
+    width: 200px;
+    height: 65px;
+    border-radius: 6px;
+}
+
+.card-p3 {
+    font-size: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    color: #6e7891;
+}
+.OURWORK {
+    display: flex;
+    padding: 120px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.ourwork {
+    display: flex;
+    justify-content: center;
+    background-color: #182944;
+}
+
+
+.ourwork-detail {
+    text-align: start;
+    width: 50%;
+}
+
+/* .work-img:nth-child(1) img{
+    width: 475px;
+    height: 400px;
+    border-radius: 20px;
+}
+.work-img:nth-child(2) img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+} */
+
+.images {
+    width: 50%;
+}
+
+
+.work-img img {
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-icon img {
+    width: 30%;
+    height: 30%;
+}
+
+.work-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #fdb52a;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.work-p2 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.work-p3 {
+    font-family: Outfit, sans-serif;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.cta-section {
+    background-color: #3083ff;
+    display: flex;
+    justify-content: center;
+}
+
+.CTA {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.cta-img img {
+    width: 700px;
+}
+
+
+.cta-details {
+    text-align: start;
+    margin-top: 50px;
+}
+
+.cta-h1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.cta-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.cta-btn {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    background-color: #ffffff;
+    color: #3083ff;
+    width: 130px;
+    height: 55px;
+    border-radius: 7px;
+}
+
+.cta-btn:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.cta-p2 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.cta-p2:hover {
+    color: #2B3144;
+}
+
+.clints-details {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.About {
+    width: 50%;
+}
+
+.clints-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #3083ff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.clints-p2 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.clints-p3 {
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #6e7891;
+}
+
+
+.section9 {
+    display: flex;
+    justify-content: center;
+}
+
+.clints {
+    width: 500px;
+    height: 340px;
+    text-align: start;
+}
+
+.clint {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.clint img {
+    width: 50px;
+    background-color: #3083ff;
+    border-radius: 50%;
+}
+
+
+#blog {
+    margin-top: 100px;
+}
+
+.blogs {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.blog {
+    text-align: start;
+}
+
+.articles {
+    margin-bottom: 300px;
+    margin-top: 70px;
+}
+
+.article-card{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.article {
+    width: 500px;
+    margin-right: 50px;
+    border-radius: 8px;
+    
+}
+
+.article img {
+    width: 400px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+}
+
+.article:hover .article-p1 {
+    color: #3083FF;
+}
+
+.article:hover img {
+    scale: 1.2;
+    transition: all ease 0.3s;
+
+}
+
+.article-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: start;
+    margin: 10px 20px;
+}
+
+.article-p2 {
+    text-align: start;
+    margin: 10px 20px;
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6e7891;
+    font-weight: 500;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer1 {
+    width: 25%;
+    margin: 0 48px;
+}
+footer2 {
+    width: 25%;
+    margin: 0 48px;
+}
+footer3 {
+    width: 25%;
+}
+footer4 {
+    width: 25%;
+}
+
+.footer-p {
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6e7891;
+}
+
+.MENU {
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    color: #3083ff;
+    font-weight: 700;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2f3e57;
+    margin-top: 6px;
+}
+
+.menu a:hover {
+    color: #3083FF;
+}
+
+.footer-srch {
+    width: 250px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+}
+
+.copyright {
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #182944;
+}
+
+
+/* ----------------------- MOBILE CSS FROM HERE ----------------------------- */
+/* ----------------------- MOBILE CSS FROM HERE ----------------------------- */
+/* ----------------------- MOBILE CSS FROM HERE ----------------------------- */
+
+@media only screen and (max-width: 1080px) {
+
+    .navbar {
+        align-items: start;
+    }
+
+    .logo img {
+        width: 160px;
+        height: 50px;
+    }
+
+    .ancor {
+        display: none;
+    }
+
+    .quote-btn {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .mobile-ancor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 66px;
+        left: 6px;
+        background-color: #f1e8e8;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .mobile-ancor a:nth-child(1) {
+        margin-top: 15px;
+    }
+    .mobile-ancor a:nth-child(5) {
+        margin-bottom: 15px;
+    }
+
+    .menu-icon svg {
+        height: 50px;
+        width: 50px;
+    }
+
+    .mobile-container {
+        width: 100%;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .details p {
+        text-align: center;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+    .p2 {
+        font-size: Outfit, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        color: #182944;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .p3 {
+        font-family: Outfit, sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 30px;
+        color: #6e7891;
+        letter-spacing: 0.6px;
+    }
+
+    .buttons {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn1 {
+        font-family: Outfit, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        border: none;
+        background-color: #3083FF;
+        color: #ffffff;
+        width: 100%;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .btn2 {
+        font-family: Outfit, sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        width: 100%;
+        height: 70px;
+        color: #3083FF;
+        border: 1px solid #3083FF;
+        border-radius: 10px;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .img1 img {
+        background-image: url(../../../Images/kichen.avif);
+        width: 100%;
+        height: 480px;
+        border-radius: 10px;
+    }
+
+    .address-div {
+        height: 100%;
+        margin: 0 15px;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .add-email-call {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .add-email-call p {
+        text-align: center;
+    }
+
+    .exprence {
+        margin-top: 20px;
+    }
+
+    .exp-container {
+        padding: 100px 0;
+        gap: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .exp-detail {
+        text-align: center;
+    }
+
+    .exp-p1 {
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+
+    .exp-p2 {
+        font-family: Outfit, sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.8px;
+        color: #ffffff;
+    }
+
+    .exp-p3 {
+        font-family: Outfit, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: 0.7px;
+        color: #ffffff;
+        margin: 8px 20px;
+    }
+
+    .exprences-number {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .exprences-number div {
+        margin-top: 10px;
+    }
+
+    .number {
+        font-family: Outfit, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .number-icon {
+        font-size: 40px;
+    }
+
+    .exp-tittle {
+        font-family: Outfit, sans-serif;
+        font-size: 18px;
+        line-height: 0px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .exp-btn {
+        width: 100%;
+    }
+
+    .exp-img img {
+        width: 100%;
+        height: 425px;
+        border-radius: 15px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .service-p1 {
+        font-family: Outfit, sans-serif;
+        font-weight: 700;
+        color: #3083ff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+    .service-p2 {
+        font-family: Outfit, sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 35px;
+    }
+
+    .service-p3 {
+        font-family: Outfit, sans-serif;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 30px;
+        color: #6e7891;
+        margin-bottom: 25px;
+    }
+
+    .service-btn button {
+        width: 100%;
+        border-radius: 10px;
+        height: 70px;
+        font-size: 17px;
+    }
+    
+
+    .card{
+        width: 230px;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 350px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .OURWORK {
+        flex-direction: column;
+        padding: 80px 0;
+    }
+
+    .ourwork-detail {
+        width: 100%;
+    }
+
+    .work-p2 {
+        font-family: Outfit, sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .work-p3 {
+        font-family: Outfit, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    .work-img img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .play-icon img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .CTA {
+        flex-direction: column-reverse;
+    }
+
+    .cta-details {
+        text-align: center;
+    }
+
+    .cta-h1 {
+        font-family: Outfit, sans-serif;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 70px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-top: 25px
+    }
+
+    .cta-p1 {
+        font-family: Outfit, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .cta-btn {
+        margin-top: 30px;
+        width: 100%;
+        height: 65px;
+    }
+
+    .cta-img img {
+        width: 90%;
+    }
+
+    .About {
+        width: 65%;
+    }
+
+    .clints-p1 {
+        font-size: 20px;
+    }
+
+    .clints-p2 {
+        font-size: 35px;
+    }
+
+    .clints-p3 {
+        font-family: Outfit, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: #6e7891;
+    }
+
+    .blogs {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog{
+        text-align: center;
+    }
+
+    .hr{
+        display: none;
+    }
+
+    .mobile-btn2{
+        width: 100%;
+    }
+
+    .articles{
+        margin-bottom: 100px ;
+    }
+
+    .article-card{
+        flex-direction: column;
+    }
+    
+    .article-card{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .article {
+        width: 100%;
+        border-radius: 12px;
+        margin: 20px 0;
+    }
+
+    .article img {
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        overflow: hidden;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer1 {
+        width: 100%;
+        margin: 0px;
+    }
+    footer2 {
+        width: 100%;
+    }
+    footer3 {
+        width: 100%;
+    }
+    footer4 {
+        width: 100%;
+    }
+
+    .footer-srch{
+        width: 100%;
+    }
+
+    .footer{
+        margin-bottom: 50px;
+    }
+
+    .copyright{
+        font-size: 16px;
+    }
+
+    .footer-menu{
+        font-size: 17px;
+    }
+
+    .section2 {
+        overflow: hidden;
+    }
+    .section3 {
+        overflow: hidden;
+    }
+    .section4 {
+        overflow: hidden;
+    }
+    .section5 {
+        overflow: hidden;
+    }
+    .section6 {
+        overflow: hidden;
+    }
+    .section7 {
+        overflow: hidden;
+    }
+    .section8 {
+        overflow: hidden;
+    }
+    .section9 {
+        overflow: hidden;
+    }
+    .section10 {
+        overflow: hidden;
+    }
+    .section11 {
+        overflow: hidden;
+    }
+    .section12 {
+        overflow: hidden;
+    }
+    .section13 {
+        overflow: hidden;
+    }
+}
