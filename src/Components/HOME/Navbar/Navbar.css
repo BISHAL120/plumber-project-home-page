@@ -101,7 +101,7 @@ body{
 }
 
 .p2 {
-    font-size: Outfit, sans-serif;
+    font-family: Outfit, sans-serif;
     font-weight: 700;
     font-size: 75px;
     line-height: 85px;
@@ -695,7 +695,9 @@ body{
 
 .Footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin-top: 130px;
 }
 
 .footer {
