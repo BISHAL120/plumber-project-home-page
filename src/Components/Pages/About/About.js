@@ -58,8 +58,12 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section>
-                
+            <section className='section4'>
+                <section>
+                    <div>
+                        
+                    </div>
+                </section>
             </section>
         </>
     );
