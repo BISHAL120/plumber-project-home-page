@@ -711,10 +711,6 @@ body{
     justify-content: space-between;
 }
 
-.foter-logo img{
-    margin-left: -15px;
-}
-
 footer1 {
     width: 25%;
     margin: 0 48px;
@@ -1207,11 +1203,6 @@ footer4 {
     .footer{
         display: flex;
         flex-direction: column;
-        overflow: hidden;
-    }
-
-    .foter-logo img{
-        margin-left: -10px;
     }
 
     footer1 {
