@@ -1,18 +1,18 @@
-.section1 {
+.About-section1 {
     margin-bottom: 68px;
 }
 
-.about-section{
+.about-section {
     margin-top: 90px;
     display: flex;
     justify-content: center;
 }
 
-.about{
+.about {
     margin: 0px 13%;
 }
 
-.about-p1{
+.about-p1 {
     font-family: Outfit, sans-serif;
     font-weight: 700;
     color: #3083ff;
@@ -21,7 +21,7 @@
     margin-bottom: 16px;
 }
 
-.about-p2{
+.about-p2 {
     font-family: Outfit, sans-serif;
     font-weight: 700;
     font-size: 65px;
@@ -30,7 +30,7 @@
     margin-bottom: 25px;
 }
 
-.about-p3{
+.about-p3 {
     font-family: Outfit, sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -52,16 +52,16 @@
     border-radius: 10px;
 }
 
-.section3{
-    padding-top: 170px;
+.about-section3 {
+    padding: 170px 0;
 }
 
-.values{
+.values {
     display: flex;
     justify-content: center;
 }
 
-.values-card{
+.values-card {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -71,11 +71,11 @@
     border-radius: 50%;
 }
 
-.value-detail{
+.value-detail {
     margin-bottom: 50px;
 }
 
-.value-p1{
+.value-p1 {
     font-family: Outfit, sans-serif;
     font-weight: 700;
     color: #3083ff;
@@ -84,7 +84,7 @@
     margin-bottom: 16px;
 }
 
-.value-p2{
+.value-p2 {
     font-family: Outfit, sans-serif;
     color: #182944;
     font-size: 48px;
@@ -100,7 +100,7 @@
     margin-bottom: 17px;
 }
 
-.values p{
+.values p {
     font-family: Outfit, sans-serif;
     font-size: 18px;
     color: #6e7891;
@@ -109,6 +109,515 @@
     margin: 0 25px;
 }
 
-.section4{
+.about-section4 {
     background-color: #182944;
+    padding: 200px 0;
+}
+
+
+.Mission {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 200px;
+}
+
+.mission-img img {
+    width: 555px;
+    height: 555px;
+    border-radius: 25px;
+}
+
+.mission-img {
+    width: 50%;
+}
+
+.mission-detail {
+    width: 50%;
+    text-align: start;
+}
+
+.mission-detail P {
+    text-align: start;
+}
+
+.mission-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #fdb52a;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+.mission-p2 {
+    font-size: 48px;
+    line-height: 1.208em;
+    font-weight: 700;
+    color: white;
+}
+
+.mission-p3 {
+    font-family: Outfit, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.misssion-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    color: #3083FF;
+}
+
+.Mission-list p:nth-child(2) {
+    font-family: Outfit, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 600;
+}
+
+.mission-list {
+    display: flex;
+    align-items: start;
+    color: white;
+}
+
+.mission-btn1 {
+    margin-top: 30px;
+}
+
+.mission-btn1 button {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: #3083FF;
+    color: #ffffff;
+    width: 175px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.Goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 175px;
+}
+
+.goal-detail {
+    width: 50%;
+    text-align: start;
+}
+
+.goal-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #fdb52a;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+.goal-p2 {
+    font-size: 48px;
+    line-height: 1.208em;
+    font-weight: 700;
+    color: white;
+}
+
+.goal-p3 {
+    font-family: Outfit, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.667em;
+    font-weight: 400;
+    text-align: start;
+}
+
+.goal-btn1 {
+    margin-top: 30px;
+}
+
+.goal-btn1 button {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: #3083FF;
+    color: #ffffff;
+    width: 175px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.goal-img {
+    width: 50%;
+}
+
+.goal-img img {
+    width: 555px;
+    height: 555px;
+    border-radius: 25px;
+}
+
+.About-section5 {
+    margin: 160px 0;
+}
+
+.About-section5-1 {
+    margin-bottom: 50px;
+}
+
+.experts {
+    margin: 0 auto;
+}
+
+.experts-p1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #3083ff;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+.experts-p2 {
+    font-family: Outfit, sans-serif;
+    color: #182944;
+    font-size: 48px;
+    line-height: 1.208em;
+    font-weight: 600;
+}
+
+.experts-p3 {
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    color: #6e7891;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0 100px;
+}
+
+.experts-card {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.about-expert-card {
+    width: 390px;
+}
+
+.experts-card-img img {
+    width: 390px;
+    height: 390px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+.experts-card-detail {
+    text-align: start;
+}
+
+.experts-card-detail h2 {
+    font-size: 28px;
+    line-height: 1.286em;
+    margin-bottom: 8px;
+    color: #182944;
+    font-weight: 700;
+}
+
+.experts-card-detail p:nth-last-child(2) {
+    font-size: 24px;
+    line-height: 1.417em;
+    font-weight: 700;
+    color: #3083ff;
+}
+
+.experts-card-detail p:nth-last-child(1) {
+    font-family: Outfit, sans-serif;
+    color: #6e7891;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+}
+
+
+/* ------------------------------ mobile css from hero ---------------------------- */
+
+@media only screen and (max-width: 1080px) {
+
+    .about-section {
+        margin-top: 50px;
+    }
+
+    .about {
+        margin: 0 0;
+    }
+
+    .about-p1 {
+        font-size: 18px;
+    }
+
+    .about-p2 {
+        font-family: Outfit, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        color: #182944;
+        width: 80%;
+        margin-bottom: 25px;
+        margin: 0 auto;
+    }
+
+    .about-p3 {
+        margin: 20px 0;
+        font-family: Outfit, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #6e7891;
+    }
+
+    .about-btn1 {
+        width: 100%;
+        font-size: 16px;
+        height: 65px;
+    }
+
+    .about-hero-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-section3 {
+        padding: 100px 0;
+    }
+
+    .value-p1 {
+        font-family: Outfit, sans-serif;
+        font-weight: 800;
+        color: #3083ff;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-bottom: 12px;
+    }
+
+    .value-p2 {
+        font-family: Outfit, sans-serif;
+        color: #182944;
+        font-size: 35px;
+        line-height: 42px;
+        font-weight: 600;
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .values {
+        flex-direction: column;
+    }
+
+    .values img {
+        width: 80px;
+    }
+
+    .values p {
+        font-family: Outfit, sans-serif;
+        font-size: 16px;
+        color: #6e7891;
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    .values-card {
+        margin-bottom: 25px;
+    }
+
+    .about-section4 {
+        padding: 100px 0;
+    }
+
+    .Mission {
+        flex-direction: column-reverse;
+        gap: 75px;
+    }
+
+    .mission-detail {
+        width: 100%;
+    }
+
+    .mission-p1 {
+        font-size: 18px;
+    }
+
+    .mission-p2 {
+        font-size: 35px;
+        line-height: 1.208em;
+        font-weight: 700;
+        color: white;
+    }
+
+    .mission-p3 {
+        font-family: Outfit, sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 1.667em;
+        font-weight: 400;
+    }
+
+    .Mission-list {
+        padding-top: 25px;
+    }
+
+    .misssion-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mission-list {
+        margin-bottom: 20px;
+    }
+
+    .Mission-list p:nth-child(1) {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .Mission-list p:nth-child(2) {
+        font-family: Outfit, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .mission-btn1 {
+        margin-top: 40px;
+    }
+
+    .mission-btn1 button {
+        width: 100%;
+    }
+
+    .mission-img {
+        width: 100%;
+    }
+
+    .mission-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Goal {
+        flex-direction: column;
+    }
+
+    .goal-detail {
+        width: 100%;
+    }
+
+    .goal-p1 {
+        font-size: 18px;
+    }
+
+    .goal-p2 {
+        font-size: 35px;
+        line-height: 1.208em;
+        font-weight: 700;
+        color: white;
+    }
+
+    .goal-p3 {
+        font-family: Outfit, sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 1.667em;
+        font-weight: 400;
+    }
+
+    .goal-btn1 button {
+        width: 100%;
+    }
+
+    .goal-img {
+        width: 100%;
+    }
+
+    .goal-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .About-section5 {
+        margin:90px 0 ;
+    }
+
+    .experts-card-detail {
+        text-align: center;
+    }
+
+    .about-expert-card {
+        margin-bottom: 30px;
+    }
+
+    .experts-card-img img {
+        margin-bottom: 30px;
+    }
+
+    .experts-p1 {
+        font-size: 18px;
+    }
+
+    .experts-p2 {
+        font-size: 35px;
+        line-height: 1.208em;
+        font-weight: 700;
+    }
+
+    .experts-p3 {
+        font-family: Outfit, sans-serif;
+        margin: 0;
+        font-size: 16px;
+        color: #6e7891;
+        line-height: 28px;
+        font-weight: 500;
+    }
+
+    .experts-card-detail p:nth-last-child(1) {
+        font-size: 17px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .About-section5-1 {}
+
+    .experts-card {
+        flex-direction: column;
+    }
 }
