@@ -356,6 +356,11 @@
 
     .About-section1 {
         margin-bottom: 60px;
+        overflow: hidden;
+    }
+
+    .about-section2 {
+        overflow: hidden;
     }
 
     .about-section {
@@ -403,6 +408,7 @@
     .about-section3 {
         padding-top: 95px;
         padding-bottom: 80px;
+        overflow: hidden;
     }
 
     .value-p1 {
@@ -447,6 +453,7 @@
 
     .about-section4 {
         padding: 100px 0;
+        overflow: hidden;
     }
 
     .Mission {
@@ -566,6 +573,7 @@
     .About-section5 {
         margin-top:90px;
         margin-bottom: -100px;
+        overflow: hidden;
     }
 
     .experts-card-detail {
@@ -605,22 +613,6 @@
         font-weight: 500;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .About-section5-1 {}
 
     .experts-card {
         flex-direction: column;

@@ -711,6 +711,10 @@ body{
     justify-content: space-between;
 }
 
+.foter-logo{
+    margin-left: -15px;
+}
+
 footer1 {
     width: 25%;
     margin: 0 48px;
@@ -1233,6 +1237,10 @@ footer4 {
 
     .footer-menu{
         font-size: 17px;
+    }
+
+    .foter-logo{
+        margin-left: -10px;
     }
 
     .section2 {
