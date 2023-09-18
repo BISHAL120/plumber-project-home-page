@@ -34,11 +34,16 @@ const Navbar = () => {
                         {
                             icon ?
                                 <div className='mobile-ancor ancor' >
-                                    <a href="#home">Home</a>
+                                    <Link to="home">Home</Link>
+                                    <Link to="about">About</Link>
+                                    <Link to="services">Services</Link>
+                                    <Link to="contact">Contact</Link>
+                                    <Link to="blog">Blog</Link>
+                                    {/* <a href="#home">Home</a>
                                     <a href="#services">Services</a>
                                     <a href="#about">About</a>
                                     <a href="#contact">Contact</a>
-                                    <a href="#blog">Blog</a>
+                                    <a href="#blog">Blog</a> */}
                                 </div>
                                 :
                                 null
@@ -58,7 +63,7 @@ const Navbar = () => {
                     <hr />
                 </nav>
             </section>
-            <hr style={{ opacity: '0.1' }} />         
+            <hr style={{ opacity: '0.1' }} />
         </>
     );
 };

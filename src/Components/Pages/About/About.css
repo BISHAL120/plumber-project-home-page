@@ -354,6 +354,10 @@
 
 @media only screen and (max-width: 1080px) {
 
+    .About-section1 {
+        margin-bottom: 60px;
+    }
+
     .about-section {
         margin-top: 50px;
     }
@@ -370,15 +374,14 @@
         font-family: Outfit, sans-serif;
         font-weight: 700;
         font-size: 40px;
-        line-height: 45px;
+        line-height: 43px;
         color: #182944;
-        width: 80%;
         margin-bottom: 25px;
         margin: 0 auto;
     }
 
     .about-p3 {
-        margin: 20px 0;
+        margin: 14px 0;
         font-family: Outfit, sans-serif;
         font-weight: 500;
         font-size: 18px;
@@ -398,7 +401,8 @@
     }
 
     .about-section3 {
-        padding: 100px 0;
+        padding-top: 95px;
+        padding-bottom: 80px;
     }
 
     .value-p1 {
@@ -416,12 +420,11 @@
         font-size: 35px;
         line-height: 42px;
         font-weight: 600;
-        width: 330px;
-        margin: 0 auto;
     }
 
     .values {
         flex-direction: column;
+        gap: 30px;
     }
 
     .values img {
@@ -448,7 +451,7 @@
 
     .Mission {
         flex-direction: column-reverse;
-        gap: 75px;
+        gap: 85px;
     }
 
     .mission-detail {
@@ -521,6 +524,7 @@
 
     .Goal {
         flex-direction: column;
+        margin-top: 100px;
     }
 
     .goal-detail {
@@ -560,7 +564,8 @@
     }
 
     .About-section5 {
-        margin:90px 0 ;
+        margin-top:90px;
+        margin-bottom: -100px;
     }
 
     .experts-card-detail {
