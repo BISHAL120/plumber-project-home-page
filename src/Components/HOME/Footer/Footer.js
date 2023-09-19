@@ -55,7 +55,7 @@ const Footer = () => {
                             Subscribe to our newsletter
                         </div>
                         <div>
-                            <input className=' shadow-lg  footer-srch' placeholder='   Enter Your Email' type="text" />
+                            <input type="text" className=' shadow-lg  footer-srch' placeholder='Enter Your Email' />
                             <button className='exp-btn'>Subscribe</button>
                         </div>
                     </div>

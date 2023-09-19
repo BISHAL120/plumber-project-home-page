@@ -772,6 +772,14 @@ footer4 {
     color: #182944;
 }
 
+input[type="text"] {
+    outline: none;
+    padding: 16px 24px;
+    background-color: #eff0f6;
+    font-size: 17px;
+    font-weight: 500;
+}
+
 
 /* ----------------------- MOBILE CSS FROM HERE ----------------------------- */
 /* ----------------------- MOBILE CSS FROM HERE ----------------------------- */
