@@ -818,6 +818,23 @@ input[type="text"] {
         background-color: #f1e8e8;
         gap: 25px;
         width: 100%;
+        z-index: 2;
+    }
+
+    @keyframes mobile-ancor-animation {
+        0% {
+            top: 365px;
+        }
+
+        100% {
+            top: 66px;
+        }
+    }
+
+    .mobile-ancor {
+        animation-name: mobile-ancor-animation;
+        animation-duration: 0.5s;
+        
     }
 
     .mobile-ancor a:nth-child(1) {
@@ -826,6 +843,7 @@ input[type="text"] {
     .mobile-ancor a:nth-child(5) {
         margin-bottom: 15px;
     }
+
 
     .menu-icon svg {
         height: 50px;

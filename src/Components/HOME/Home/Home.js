@@ -216,7 +216,7 @@ const Home = () => {
                             <p className='service-p3'>Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
                         </div>
                     </div>
-                    <div className='w-100'>
+                    <div style={{height: '640px'}} className='w-100'>
                         <div className='slider'>
                             <Slider {...settings}>
                                 <div className='card'>

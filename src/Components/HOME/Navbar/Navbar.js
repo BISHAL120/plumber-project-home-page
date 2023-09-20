@@ -9,6 +9,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
+    const [hide, Sethide] = useState(false);
+
     const [icon, setIcon] = useState(false);
 
     return (
@@ -31,22 +33,42 @@ const Navbar = () => {
                             <a href="#contact"></a>
                             <a href="#blog"></a> */}
                         </div>
+
                         {
-                            icon ?
-                                <div className='mobile-ancor ancor' >
-                                    <Link to="home">Home</Link>
-                                    <Link to="about">About</Link>
-                                    <Link to="services">Services</Link>
-                                    <Link to="contact">Contact</Link>
-                                    <Link to="blog">Blog</Link>
-                                    {/* <a href="#home">Home</a>
+                            hide ?
+                                null
+                                :
+                                icon ?
+                                    <div className={'mobile-ancor ancor'} >
+                                        <Link onClick={() => {
+                                            Sethide(!hide);
+                                            setIcon(!icon);
+                                        }
+                                        } to="home">Home</Link>
+                                        <Link onClick={() => {
+                                            Sethide(!hide);
+                                            setIcon(!icon);
+                                        }} to="about">About</Link>
+                                        <Link onClick={() => {
+                                            Sethide(!hide);
+                                            setIcon(!icon);
+                                        }} to="services">Services</Link>
+                                        <Link onClick={() => {
+                                            Sethide(!hide);
+                                            setIcon(!icon);
+                                            }} to="contact">Contact</Link>
+                                        <Link onClick={() => {
+                                            Sethide(!hide);
+                                            setIcon(!icon)
+                                        }} to="blog">Blog</Link>
+                                        {/* <a href="#home">Home</a>
                                     <a href="#services">Services</a>
                                     <a href="#about">About</a>
                                     <a href="#contact">Contact</a>
                                     <a href="#blog">Blog</a> */}
-                                </div>
-                                :
-                                null
+                                    </div>
+                                    :
+                                    null
                         }
                         <div className='quote-btn'>
                             <button>Get a quote</button>
@@ -56,7 +78,10 @@ const Navbar = () => {
                                 icon ?
                                     <HiX onClick={() => setIcon(!icon)} style={{ width: '30px' }} />
                                     :
-                                    <GiHamburgerMenu onClick={() => setIcon(!icon)} style={{ width: '25px' }} />
+                                    <GiHamburgerMenu onClick={() => {
+                                        setIcon(!icon);
+                                        Sethide(false);
+                                    }} style={{ width: '25px' }} />
                             }
                         </div>
                     </div>
