@@ -96,7 +96,7 @@ const Contact = () => {
                         <div>
                             <div style={{ height: !showp1 ? '140px' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
-                                    <h2>How many years of experience does plumbing has?</h2>
+                                    <h2 style={{color: showp1 ? 'rgb(48, 131, 255)' : '#182944'}}>How many years of experience does plumbing has?</h2>
                                     {showp1 ?
                                         <AiOutlineArrowDown onClick={() => Setshowp1(!showp1)} style={{ width: '30px', height: '30px' }} />
                                         :
@@ -113,7 +113,7 @@ const Contact = () => {
                             </div>
                             <div style={{ height: !showp2 ? '140px' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
-                                    <h2>How big is your team of plumbers?</h2>
+                                    <h2 style={{color: showp2 ? 'rgb(48, 131, 255)' : '#182944'}}>How big is your team of plumbers?</h2>
                                     {showp2 ?
                                         <AiOutlineArrowDown onClick={() => Setshowp2(!showp2)} style={{ width: '30px', height: '30px' }} />
                                         :
@@ -130,7 +130,7 @@ const Contact = () => {
                             </div>
                             <div style={{paddingTop: '35px', height: !showp3 ? '140px' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
-                                    <h2>Do you have case studies of past successful projects?</h2>
+                                    <h2 style={{color: showp3 ? 'rgb(48, 131, 255)' : '#182944'}}>Do you have case studies of past successful projects?</h2>
                                     {showp3 ?
                                         <AiOutlineArrowDown onClick={() => Setshowp3(!showp3)} style={{ width: '30px', height: '30px' }} />
                                         :
@@ -149,7 +149,7 @@ const Contact = () => {
                         <div>
                             <div style={{ height: !showp4 ? '140px' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
-                                    <h2>Does Plumbing has a project minimum?</h2>
+                                    <h2 style={{color: showp4 ? 'rgb(48, 131, 255)' : '#182944'}}>Does Plumbing has a project minimum?</h2>
                                     {showp4 ?
                                         <AiOutlineArrowDown onClick={() => Setshowp4(!showp4)} style={{ width: '30px', height: '30px' }} />
                                         :
@@ -166,7 +166,7 @@ const Contact = () => {
                             </div>
                             <div style={{paddingTop: '35px', height: !showp5 ? '140px' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
-                                    <h2>How can I get a consultation and quote for my project?</h2>
+                                    <h2 style={{color: showp5 ? 'rgb(48, 131, 255)' : '#182944'}}>How can I get a consultation and quote for my project?</h2>
                                     {showp5 ?
                                         <AiOutlineArrowDown onClick={() => Setshowp5(!showp5)} style={{ width: '30px', height: '30px' }} />
                                         :
@@ -183,7 +183,7 @@ const Contact = () => {
                             </div>
                             <div style={{ height: !showp6 ? '140px' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
-                                    <h2>Does Plumbing has a project minimum?</h2>
+                                    <h2 style={{color: showp6 ? 'rgb(48, 131, 255)' : '#182944'}}>Does Plumbing has a project minimum?</h2>
                                     {showp6 ?
                                         <AiOutlineArrowDown onClick={() => Setshowp6(!showp6)} style={{ width: '30px', height: '30px' }} />
                                         :
