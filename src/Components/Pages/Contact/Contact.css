@@ -1,5 +1,7 @@
 .Contact-section-1 {
     padding-top: 100px;
+    padding-bottom: 120px;
+    position: relative;
 }
 
 .contact-main {
@@ -9,6 +11,7 @@
 }
 
 .contact-main-1 {
+    background-color: #fff;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 80px;
@@ -16,7 +19,6 @@
     border-radius: 25px;
     max-width: 500px;
     max-height: 580px;
-
 }
 
 .Details {
@@ -26,7 +28,6 @@
 
 .contact-main-1 h2 {
     font-family: Outfit, sans-serif;
-    ;
     color: #182944;
     font-size: 28px;
     line-height: 1.286em;
@@ -182,3 +183,104 @@ input[type="message"] {
     height: 70px;
     border-radius: 6px;
 }
+
+.contact-half-bg {
+    position: absolute;
+    left: 0%;
+    top: -1.7%;
+    right: auto;
+    bottom: 0%;
+    z-index: -999;
+    overflow: hidden;
+    width: 34%;
+    height: 102%;
+    background-color: #3083ff;
+}
+
+.faq-section {
+    background-color: #182944;
+    padding: 180px 0;
+}
+
+.faq-section-1 p:nth-child(1){
+    font-family: Outfit, sans-serif;
+    color: #3083ff;
+    font-size: 20px;
+    line-height: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.faq-section-1 h2 {
+    font-family: Outfit, sans-serif;
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.208em;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.faq-section-1 p:nth-child(3) {
+    color: #fff;
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+}
+
+.faq-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40% 40%;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.faq-card {
+    width: 600px;
+    background-color: #fff;
+    padding-top: 52px;
+    padding-bottom: 15px;
+    padding-left: 48px;
+    padding-right: 17px;
+    text-align: start;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.faq-card h2 {
+    font-family: Outfit, sans-serif;
+    font-size: 24px;
+    line-height: 1.417em;
+    color: #182944;
+    font-weight: 700;
+}
+
+.faq-card p {
+    margin-top: 18px;
+    font-family: Outfit, sans-serif;
+    color: #6e7891;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+    
+}
+
+/* 
+.faq-card {
+    width: 600px;
+    height: 175px;
+    background-color: #fff;
+    padding: 52px 17px 52px 48px;
+    box-shadow: 0 2px 8px 0 rgba(33, 31, 84, 0.06);
+}
+
+.faq-card h2 {
+    color: #182944;
+    font-size: 24px;
+    line-height: 1.417em;
+    font-weight: 700;
+    cursor: pointer;
+} */

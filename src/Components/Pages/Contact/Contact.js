@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css'
 import location from '../../../Images/Icon/location-icon.png'
 import message from '../../../Images/Icon/message-icon.png'
 import call from '../../../Images/Icon/call-icon.png'
+import { AiOutlineArrowRight, AiOutlineArrowDown } from "react-icons/ai"
 
 
 const Contact = () => {
+
+    const [showp1, Setshowp1] = useState(false);
+    const [showp2, Setshowp2] = useState(false);
+    const [showp3, Setshowp3] = useState(false);
+    const [showp4, Setshowp4] = useState(false);
+    const [showp5, Setshowp5] = useState(false);
+    const [showp6, Setshowp6] = useState(false);
+
     return (
         <>
             <section className='Contact-section-1'>
@@ -30,7 +39,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className='contact-img-detail'>
-                            <img src={location} alt="" />
+                            <img src={call} alt="" />
                             <div className='contact-details  text-start pt-3'>
                                 <p>Phone:</p>
                                 <p>(234) 231 - 2123</p>
@@ -74,7 +83,125 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+                <div className='contact-half-bg'></div>
+            </section>
+            <section className='faq-section'>
+                <div className=' container container-md '>
+                    <div className='faq-section-1'>
+                        <p>FAQ</p>
+                        <h2>Frequently Asked Questions</h2>
+                        <p>Cras tincidunt lobortis feugiat vivamus at morbi leo urna molestie atole elementum eu facilisis faucibus interdum posuere.</p>
+                    </div>
+                    <div className='faq-cards'>
+                        <div>
+                            <div style={{ height: !showp1 ? '140px' : 'auto' }} className='faq-card'>
+                                <div className=' d-flex align-items-start justify-content-between '>
+                                    <h2>How many years of experience does plumbing has?</h2>
+                                    {showp1 ?
+                                        <AiOutlineArrowDown onClick={() => Setshowp1(!showp1)} style={{ width: '30px', height: '30px' }} />
+                                        :
+                                        <AiOutlineArrowRight onClick={() => Setshowp1(!showp1)} style={{ width: '30px', height: '30px' }} />
+                                    }
+                                </div>
+                                {showp1 ?
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus feugiat ut egestas ut.
+                                    </p>
+                                    :
+                                    null
+                                }
+                            </div>
+                            <div style={{ height: !showp2 ? '140px' : 'auto' }} className='faq-card'>
+                                <div className=' d-flex align-items-start justify-content-between '>
+                                    <h2>How big is your team of plumbers?</h2>
+                                    {showp2 ?
+                                        <AiOutlineArrowDown onClick={() => Setshowp2(!showp2)} style={{ width: '30px', height: '30px' }} />
+                                        :
+                                        <AiOutlineArrowRight onClick={() => Setshowp2(!showp2)} style={{ width: '30px', height: '30px' }} />
+                                    }
+                                </div>
+                                {showp2 ?
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus feugiat ut egestas ut.
+                                    </p>
+                                    :
+                                    null
+                                }
+                            </div>
+                            <div style={{paddingTop: '35px', height: !showp3 ? '140px' : 'auto' }} className='faq-card'>
+                                <div className=' d-flex align-items-start justify-content-between '>
+                                    <h2>Do you have case studies of past successful projects?</h2>
+                                    {showp3 ?
+                                        <AiOutlineArrowDown onClick={() => Setshowp3(!showp3)} style={{ width: '30px', height: '30px' }} />
+                                        :
+                                        <AiOutlineArrowRight onClick={() => Setshowp3(!showp3)} style={{ width: '30px', height: '30px' }} />
+                                    }
+                                </div>
+                                {showp3 ?
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus feugiat ut egestas ut.
+                                    </p>
+                                    :
+                                    null
+                                }
+                            </div>
+                        </div>
+                        <div>
+                            <div style={{ height: !showp4 ? '140px' : 'auto' }} className='faq-card'>
+                                <div className=' d-flex align-items-start justify-content-between '>
+                                    <h2>Does Plumbing has a project minimum?</h2>
+                                    {showp4 ?
+                                        <AiOutlineArrowDown onClick={() => Setshowp4(!showp4)} style={{ width: '30px', height: '30px' }} />
+                                        :
+                                        <AiOutlineArrowRight onClick={() => Setshowp4(!showp4)} style={{ width: '30px', height: '30px' }} />
+                                    }
+                                </div>
+                                {showp4 ?
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus feugiat ut egestas ut.
+                                    </p>
+                                    :
+                                    null
+                                }
+                            </div>
+                            <div style={{paddingTop: '35px', height: !showp5 ? '140px' : 'auto' }} className='faq-card'>
+                                <div className=' d-flex align-items-start justify-content-between '>
+                                    <h2>How can I get a consultation and quote for my project?</h2>
+                                    {showp5 ?
+                                        <AiOutlineArrowDown onClick={() => Setshowp5(!showp5)} style={{ width: '30px', height: '30px' }} />
+                                        :
+                                        <AiOutlineArrowRight onClick={() => Setshowp5(!showp5)} style={{ width: '30px', height: '30px' }} />
+                                    }
+                                </div>
+                                {showp5 ?
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus feugiat ut egestas ut.
+                                    </p>
+                                    :
+                                    null
+                                }
+                            </div>
+                            <div style={{ height: !showp6 ? '140px' : 'auto' }} className='faq-card'>
+                                <div className=' d-flex align-items-start justify-content-between '>
+                                    <h2>Does Plumbing has a project minimum?</h2>
+                                    {showp6 ?
+                                        <AiOutlineArrowDown onClick={() => Setshowp6(!showp6)} style={{ width: '30px', height: '30px' }} />
+                                        :
+                                        <AiOutlineArrowRight onClick={() => Setshowp6(!showp6)} style={{ width: '30px', height: '30px' }} />
+                                    }
+                                </div>
+                                {showp6 ?
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus feugiat ut egestas ut.
+                                    </p>
+                                    :
+                                    null
+                                }
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
             </section>
         </>
     );
