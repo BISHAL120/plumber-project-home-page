@@ -4,6 +4,9 @@ import location from '../../../Images/Icon/location-icon.png'
 import message from '../../../Images/Icon/message-icon.png'
 import call from '../../../Images/Icon/call-icon.png'
 import { AiOutlineArrowRight, AiOutlineArrowDown } from "react-icons/ai"
+import { contactFaq } from '../../../Components/information'
+import Faq from './Faq';
+
 
 
 const Contact = () => {
@@ -26,21 +29,21 @@ const Contact = () => {
                         </div>
                         <div className='contact-img-detail'>
                             <img src={location} alt="" />
-                            <div className='contact-details text-start pt-2 '>
+                            <div className='contact-details pt-2 '>
                                 <p>Visit our office</p>
                                 <p>149W 70th St, 9000 Los Angeles, CA</p>
                             </div>
                         </div>
                         <div className='contact-img-detail'>
                             <img src={message} alt="" />
-                            <div className='contact-details text-start pt-3 '>
+                            <div className='contact-details pt-3 '>
                                 <p>Mail:</p>
                                 <p>info@plumbing.com</p>
                             </div>
                         </div>
                         <div className='contact-img-detail'>
                             <img src={call} alt="" />
-                            <div className='contact-details  text-start pt-3'>
+                            <div className='contact-details  pt-3'>
                                 <p>Phone:</p>
                                 <p>(234) 231 - 2123</p>
                             </div>
@@ -93,8 +96,8 @@ const Contact = () => {
                         <p>Cras tincidunt lobortis feugiat vivamus at morbi leo urna molestie atole elementum eu facilisis faucibus interdum posuere.</p>
                     </div>
                     <div className='faq-cards'>
-                        <div>
-                            <div style={{ height: !showp1 ? '140px' : 'auto' }} className='faq-card'>
+                        <div className='faq-cards-1'>
+                            <div style={{ height: !showp1 ? 'fit-content' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
                                     <h2 style={{color: showp1 ? 'rgb(48, 131, 255)' : '#182944'}}>How many years of experience does plumbing has?</h2>
                                     {showp1 ?
@@ -111,7 +114,7 @@ const Contact = () => {
                                     null
                                 }
                             </div>
-                            <div style={{ height: !showp2 ? '140px' : 'auto' }} className='faq-card'>
+                            <div style={{ height: !showp2 ? 'fit-content' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
                                     <h2 style={{color: showp2 ? 'rgb(48, 131, 255)' : '#182944'}}>How big is your team of plumbers?</h2>
                                     {showp2 ?
@@ -128,7 +131,7 @@ const Contact = () => {
                                     null
                                 }
                             </div>
-                            <div style={{paddingTop: '35px', height: !showp3 ? '140px' : 'auto' }} className='faq-card'>
+                            <div style={{paddingTop: '35px', height: !showp3 ? 'fit-content' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
                                     <h2 style={{color: showp3 ? 'rgb(48, 131, 255)' : '#182944'}}>Do you have case studies of past successful projects?</h2>
                                     {showp3 ?
@@ -146,8 +149,8 @@ const Contact = () => {
                                 }
                             </div>
                         </div>
-                        <div>
-                            <div style={{ height: !showp4 ? '140px' : 'auto' }} className='faq-card'>
+                        <div className='faq-cards-2'>
+                            <div style={{ height: !showp4 ? 'fit-content' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
                                     <h2 style={{color: showp4 ? 'rgb(48, 131, 255)' : '#182944'}}>Does Plumbing has a project minimum?</h2>
                                     {showp4 ?
@@ -164,7 +167,7 @@ const Contact = () => {
                                     null
                                 }
                             </div>
-                            <div style={{paddingTop: '35px', height: !showp5 ? '140px' : 'auto' }} className='faq-card'>
+                            <div style={{paddingTop: '35px', height: !showp5 ? 'fit-content' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
                                     <h2 style={{color: showp5 ? 'rgb(48, 131, 255)' : '#182944'}}>How can I get a consultation and quote for my project?</h2>
                                     {showp5 ?
@@ -181,7 +184,7 @@ const Contact = () => {
                                     null
                                 }
                             </div>
-                            <div style={{ height: !showp6 ? '140px' : 'auto' }} className='faq-card'>
+                            <div style={{ height: !showp6 ? 'fit-content' : 'auto' }} className='faq-card'>
                                 <div className=' d-flex align-items-start justify-content-between '>
                                     <h2 style={{color: showp6 ? 'rgb(48, 131, 255)' : '#182944'}}>Does Plumbing has a project minimum?</h2>
                                     {showp6 ?
@@ -199,6 +202,19 @@ const Contact = () => {
                                 }
                             </div>
                         </div>
+
+                        {/* ---------------------------------- Data Load Dynamically -----------------------------
+
+                        {
+                           contactFaq.map(card => <Faq
+                           key={card.id}
+                           title={card.title}
+                           content={card.content}
+                           ></Faq>)
+                        } 
+                        
+                            ---------------------------------- Data Load Dynamically -----------------------------
+                        */}
 
                     </div>
                 </div>
