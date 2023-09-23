@@ -48,6 +48,7 @@ body{
     color: #569AFF;
 }
 
+
 .quote-btn button {
     width: 145px;
     height: 60px;
@@ -58,11 +59,12 @@ body{
     font-family: Outfit, sans-serif;
     font-weight: 600;
     font-size: 17px;
+    transition: 300ms ease;
 }
 
 .quote-btn button:hover {
-    margin-bottom: 10px;
-    transition: ease 0.3s;
+    margin-bottom: 7px;
+    background-color: #3898EC;
 }
 
 .menu-icon {

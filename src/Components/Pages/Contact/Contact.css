@@ -19,11 +19,33 @@
     max-width: 500px;
     max-height: 580px;
     border: 1px solid #eff0f6;
+    box-shadow: 0 4px 12px 0 rgba(33, 31, 84, 0.08);
 }
 
 .Details {
     text-align: start;
     padding-left: 25px;
+}
+
+.contact-img-detail {
+    transition:  0.5s ease;
+}
+
+.contact-img-detail:nth-child(2):hover {
+    cursor: pointer;
+    transform: scale(0.97);
+    
+}
+.contact-img-detail:nth-child(3):hover {
+    cursor: pointer;
+    transform: scale(0.97);
+    
+}
+
+.contact-img-detail:nth-child(4):hover {
+    cursor: pointer;
+    transform: scale(0.97);
+   
 }
 
 .contact-main-1 h2 {
@@ -166,14 +188,32 @@ input[type="subject"],
 input[type="message"] {
     outline: none;
     height: 72px;
-    border: none;
+   border: 1px solid white;
     font-size: 18px;
     line-height: 1.1em;
     font-weight: 500;
     padding: 16px 24px;
     border-radius: 10px;
     background-color: #fff;
+    box-sizing: border-box;
     box-shadow: 0 4px 12px 0 rgba(33, 31, 84, 0.08);
+}
+
+.child input:hover {
+    border-color: #3083ff;
+    transition: 300ms;
+    box-shadow: 0 4px 12px 0 rgba(33, 31, 84, 0.1);
+}
+.child textarea:hover {
+    border-color: #3083ff;
+    transition: 300ms;
+    box-shadow: 0 4px 12px 0 rgba(33, 31, 84, 0.1);
+}
+.child input:focus {
+    border-color: #3083ff;
+}
+.child textarea:focus {
+    border-color: #3083ff;
 }
 
 .child input[type="submit"] {
@@ -263,6 +303,11 @@ input[type="message"] {
     margin-bottom: 50px;
 }
 
+.faq-card:hover {
+    scale: 0.97;
+    transition: all 0.4s;
+}
+
 .faq-card h2 {
     font-family: Outfit, sans-serif;
     font-size: 24px;
@@ -300,7 +345,6 @@ input[type="message"] {
 
     .contact-main {
         flex-direction: column-reverse;
-        gap: ;
     }
 
     .contact-form-1 {
@@ -344,8 +388,7 @@ input[type="message"] {
     label[for="email"],
     label[for="tel"],
     label[for="subject"],
-    label[for="message"] 
-    {
+    label[for="message"] {
         font-family: Outfit, sans-serif;
         font-size: 17px;
         font-weight: 700;
@@ -355,22 +398,29 @@ input[type="message"] {
     input[type="email"],
     input[type="tel"],
     input[type="subject"],
-    input[type="message"] 
-    {
+    input[type="message"] {
         font-family: Outfit, sans-serif;
         width: 100%;
         font-size: 17px;
         font-weight: 500;
     }
 
-    .child textarea  {
+    .child input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="subject"],
+    input[type="message"]:hover {
+        border-color: #3083ff;
+        box-shadow: 0 4px 12px 0 rgba(33, 31, 84, 0.1);
+    }
+
+    .child textarea {
         font-family: Outfit, sans-serif;
         font-size: 17px;
         font-weight: 500;
     }
 
-    .child input[type="submit"] 
-    {
+    .child input[type="submit"] {
         width: 100%;
     }
 
@@ -381,9 +431,11 @@ input[type="message"] {
 
     .contact-main-1 {
         padding: 50px 24px;
-        max-height:fit-content;
-       
-        
+        max-height: fit-content;
+        max-width: 100%;
+        box-shadow: 0 4px 12px 0 rgba(33, 31, 84, 0.08);
+
+
     }
 
     .contact-detail-p {
@@ -400,6 +452,7 @@ input[type="message"] {
         flex-direction: column;
         align-items: center;
     }
+
     .contact-details {
         text-align: center;
     }
@@ -425,7 +478,7 @@ input[type="message"] {
     }
 
     .faq-card {
-        width:100%;
+        width: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
         padding-left: 24px;
@@ -439,32 +492,17 @@ input[type="message"] {
     .faq-cards-1 {
         width: 100%;
     }
-    
+
     .faq-cards-2 {
         width: 100%;
     }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .contact-half-bg {
-        display: none;
+        width: 100%;
+        height: 30%;
+        top: auto;
     }
 
 }

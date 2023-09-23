@@ -22,7 +22,7 @@ const Contact = () => {
         <>
             <section className='Contact-section-1'>
                 <div className='contact-main container container-md '>
-                    <div className='contact-main-1 shadow '>
+                    <div className='contact-main-1  '>
                         <div className='Details'>
                             <h2>Contact details</h2>
                             <p className='contact-detail-p'>Lorem ipsum dolor sit amet consectetur adipisc elit tortor eu egestas morbi sem vulputate.</p>
