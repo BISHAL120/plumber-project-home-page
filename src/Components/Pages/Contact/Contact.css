@@ -405,14 +405,6 @@ input[type="message"] {
         font-weight: 500;
     }
 
-    .child input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="subject"],
-    input[type="message"]:hover {
-        border-color: #3083ff;
-        box-shadow: 0 4px 12px 0 rgba(33, 31, 84, 0.1);
-    }
 
     .child textarea {
         font-family: Outfit, sans-serif;

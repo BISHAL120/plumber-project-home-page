@@ -775,7 +775,7 @@ footer4 {
     color: #182944;
 }
 
-input[type="text"] {
+.footer-srch {
     outline: none;
     padding: 16px 24px;
     background-color: #eff0f6;
