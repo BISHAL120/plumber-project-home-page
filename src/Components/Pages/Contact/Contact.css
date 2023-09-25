@@ -272,6 +272,7 @@ input[type="message"] {
     font-size: 18px;
     line-height: 1.667em;
     font-weight: 400;
+    margin-bottom: 50px;
 }
 
 .faq-cards {
@@ -336,7 +337,8 @@ input[type="message"] {
 
 @media screen and (max-width: 1080px) {
     .faq-section {
-        padding: 50px 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     .Contact-section-1 {

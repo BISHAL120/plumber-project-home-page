@@ -23,7 +23,7 @@ const Blog = () => {
 
     return (
         <>
-            <section className='Blog-section-1 container container-md news-article'>
+            <section className='container container-md Blog-section-1 news-article'>
                 <div className='Blog-section2'>
                     <h1>News & Articles</h1>
                     <p>
@@ -74,24 +74,91 @@ const Blog = () => {
                 </div>
             </section>
             <section className='blog-section-3'>
-                <div className='blog-section3 container container-md '>
-                    <div className='latest-article'>
-                        <h2>Latest articles</h2>
+                <div className='container container-md'>
+                    <div className='blog-section3'>
+                        <div className='latest-article'>
+                            <h2>Latest articles</h2>
+                        </div>
+                        <div className='article-ancor'>
+                            <a href="">ALL</a>
+                            <a href="">Article</a>
+                            <a href="">Resource</a>
+                            <a href="">Tips</a>
+                        </div>
                     </div>
-                    <div className='article-ancor'>
-                        <a href="">ALL</a>
-                        <a href="">Article</a>
-                        <a href="">Resource</a>
-                        <a href="">Tips</a>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src={img15} alt="" />
-                    </div>
-                    <div>
-                        <h2>How to clean grease out of sink drains</h2>
-                        <p>{currentDate}</p>
+                    <div className='blog-cards'>
+                        <div className='blog-card'>
+                            <div>
+                                <img src={img15} alt="" />
+                            </div>
+                            <div>
+                                <h2>How to clean grease out of sink drains</h2>
+                                <p>{currentDate}</p>
+                            </div>
+                            <div>
+                                <a href="">Article</a>
+                            </div>
+                        </div>
+                        <div className='blog-card'>
+                            <div>
+                                <img src={img16} alt="" />
+                            </div>
+                            <div>
+                                <h2>When you should replace plumbing pipes?</h2>
+                                <p>{currentDate}</p>
+                            </div>
+                            <div>
+                                <a href="">Resource</a>
+                            </div>
+                        </div>
+                        <div className='blog-card'>
+                            <div>
+                                <img src={img17} alt="" />
+                            </div>
+                            <div>
+                                <h2>Why you should replace your water heater</h2>
+                                <p>{currentDate}</p>
+                            </div>
+                            <div>
+                                <a href="">Tips</a>
+                            </div>
+                        </div>
+                        <div className='blog-card'>
+                            <div>
+                                <img src={img25} alt="" />
+                            </div>
+                            <div>
+                                <h2>6 Reasons your sink doesn't have enough water pressure</h2>
+                                <p>{currentDate}</p>
+                            </div>
+                            <div>
+                                <a href="">Resource</a>
+                            </div>
+                        </div>
+                        <div className='blog-card'>
+                            <div>
+                                <img src={img26} alt="" />
+                            </div>
+                            <div>
+                                <h2>How to fix a stripped faucet handdle in 10 minutes or less</h2>
+                                <p>{currentDate}</p>
+                            </div>
+                            <div>
+                                <a href="">Tips</a>
+                            </div>
+                        </div>
+                        <div className='blog-card'>
+                            <div>
+                                <img src={img27} alt="" />
+                            </div>
+                            <div>
+                                <h2>6 practical ways to unclog a toilet drain without tools</h2>
+                                <p>{currentDate}</p>
+                            </div>
+                            <div>
+                                <a href="">Article</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
