@@ -60,15 +60,15 @@ const Contact = () => {
                                 <div className='form'>
                                     <div className='child'>
                                         <label htmlFor="name">Name</label>
-                                        <input type="text" name='name' placeholder='John Carter' />
+                                        <input type="text" name='name' placeholder='John Carter' title="Please enter your name" required />
                                     </div>
                                     <div className='child'>
                                         <label htmlFor="email">Email</label>
-                                        <input type="email" name='email' placeholder='example@email.com' />
+                                        <input type="email" name='email' placeholder='example@email.com' title="Please enter your email" required />
                                     </div>
                                     <div className='child'>
                                         <label htmlFor="tel">Phone</label>
-                                        <input type="tel" id="phone" name="phone" placeholder="(123)-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+                                        <input type="tel" id="phone" name="phone" placeholder="(123)-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" title="Please enter your number" required />
                                     </div>
                                     <div className='child'>
                                         <label htmlFor="subject">Subject</label>

@@ -5,7 +5,6 @@ const Footer = () => {
     return (
         <div>
             <section className='section12 Footer '>
-            <hr style={{opacity: '0.2'}} className='mb-5' />
                 <div className='footer container-md container'>
                     <div className='footer1 text-start '>
                         <div className='logo foter-logo'>

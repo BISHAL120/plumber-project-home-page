@@ -244,6 +244,7 @@
 .blog-section-3 {
     background-color: #182944;
     padding: 180px 0;
+    margin-bottom: 100px;
 }
 
 .blog-section3 {
@@ -421,9 +422,9 @@
     }
 
     .news-article-1 div:nth-child(1) {
-        background-color: #3083ff;
-        color: #fff;
-        border: #3083ff;
+        background-color: #fff;
+        color: #3083ff;
+        border: 1px solid #3083ff;
     }
 
     .news-article-1 div:nth-child(2) {

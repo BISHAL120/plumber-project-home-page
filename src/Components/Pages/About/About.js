@@ -22,10 +22,10 @@ const About = () => {
                         <p className='about-p2'>Over 25+ Years Experience In Plumbing Service</p>
                         <p className='about-p3'>
                             Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam neque ultrices.
-                        </p>
-                        <button className='about-btn1'>
-                            Get a quote
-                        </button>
+                        </p>                      
+                            <button className='about-btn1'>
+                                Get a quote
+                            </button>                        
                     </div>
                 </div>
             </section>
@@ -158,7 +158,7 @@ const About = () => {
                                 <h2>Matt Cannon</h2>
                                 <p>Installation and repairs</p>
                                 <p>
-                                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est velitolm.
+                                    Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est velitolm.
                                 </p>
                             </div>
                         </div>
@@ -177,6 +177,7 @@ const About = () => {
                     </div>
                 </section>
             </section>
+            <hr style={{ opacity: '0.2' }} className='mb-5' />
         </>
     );
 };

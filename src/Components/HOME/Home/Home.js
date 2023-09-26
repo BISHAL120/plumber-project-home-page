@@ -28,12 +28,12 @@ import playicon from '../../../Images/Icon/play-icon.png';
 
 const Home = () => {
 
-    
+
     const settings = {
         dots: false,
         autoplay: true,
         infinite: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
@@ -441,42 +441,45 @@ const Home = () => {
                 </div>
             </section>
             <section className='section11 articles'>
-                <div className='container container-md  article-card mb-5'>
-                    <div className='article shadow '>
-                        <div className='overflow-hidden'>
-                            <img src={img15} alt="" />
+                <div className=' container container-md '>
+                    <div className=' article-card mb-5'>
+                        <div className='article shadow'>
+                            <div className='overflow-hidden'>
+                                <img src={img15} alt="" />
+                            </div>
+                            <p className='article-p1'>
+                                How to clean grease out of sink drains
+                            </p>
+                            <p className='article-p2'>
+                                Dec 13, 2022
+                            </p>
                         </div>
-                        <p className='article-p1'>
-                            How to clean grease out of sink drains
-                        </p>
-                        <p className='article-p2'>
-                            Dec 13, 2022
-                        </p>
-                    </div>
-                    <div className='article shadow'>
-                        <div className='overflow-hidden'>
-                            <img src={img16} alt="" />
+                        <div className='article shadow'>
+                            <div className='overflow-hidden'>
+                                <img src={img16} alt="" />
+                            </div>
+                            <p className='article-p1'>
+                                When you should replace plumbing pipes?
+                            </p>
+                            <p className='article-p2'>
+                                Dec 13, 2022
+                            </p>
                         </div>
-                        <p className='article-p1'>
-                            When you should replace plumbing pipes?
-                        </p>
-                        <p className='article-p2'>
-                            Dec 13, 2022
-                        </p>
-                    </div>
-                    <div className='article shadow'>
-                        <div className='overflow-hidden'>
-                            <img src={img17} alt="" />
+                        <div className='article shadow'>
+                            <div className='overflow-hidden'>
+                                <img src={img17} alt="" />
+                            </div>
+                            <p className='article-p1'>
+                                Why you should replace your water heater
+                            </p>
+                            <p className='article-p2'>
+                                Dec 13, 2022
+                            </p>
                         </div>
-                        <p className='article-p1'>
-                            Why you should replace your water heater
-                        </p>
-                        <p className='article-p2'>
-                            Dec 13, 2022
-                        </p>
                     </div>
                 </div>
             </section>
+            <hr style={{ opacity: '0.2' }} className='mb-5' />
         </div>
     );
 };

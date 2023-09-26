@@ -4,7 +4,7 @@ import './Navbar.css';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { HiX } from "react-icons/hi";
 import logo from '../../../Images/logo.png';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -13,12 +13,14 @@ const Navbar = () => {
 
     const [icon, setIcon] = useState(false);
 
+    const navigate = useNavigate();
+
     return (
         <>
             <section className='section1'>
                 <nav className='nav container '>
                     <div className='navbar position-relative '>
-                        <div className='logo'>
+                        <div onClick={() => navigate("/")} className='logo'>
                             <img src={logo} alt="" />
                         </div>
                         <div className='ancor' >

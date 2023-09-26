@@ -244,6 +244,7 @@ input[type="message"] {
 .faq-section {
     background-color: #182944;
     padding: 180px 0;
+    margin-bottom: 100px;
 }
 
 .faq-section-1 p:nth-child(1) {
